@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+ float t,h,e,m,p,avg;
+ printf("enter  marks of first subject");
+ scanf("%f",&t);
+ printf("enter  marks of second subject");
+ scanf("%f",&h);
+ printf("enter  marks of third subject");
+ scanf("%f",&e);
+ printf("enter  marks of fourth subject");
+ scanf("%f",&m);
+ printf("enter  marks of fifth subject");
+ scanf("%f",&p);
+ avg=t+h+e+m+p/5;
+ printf("the area of circle  is %f",avg);
+
+    return 0;
+}
